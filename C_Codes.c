@@ -143,3 +143,9 @@
 //     printf("%d", SUM);
 //     return 0;
 // }
+
+#include<stdio.h>
+int main(){
+    printf("Hello");
+    return 0;
+}
