@@ -29,5 +29,4 @@ if (i==4 && guess!=random){
     printf("No more chances left:(\nBetter luck next time:)");
     }
     }
-printf("Hello");
 }
