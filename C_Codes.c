@@ -144,3 +144,34 @@
 //     return 0;
 // }
 
+//Find Average of 3 numbers using Functions (Inputs by default)
+// #include<stdio.h>
+// int Average(int, int, int);
+// int Average(int a, int b, int c){
+//     int result= (a+b+c)/3;
+//     return result;
+// }
+// int main(){
+//     int avg=Average(2,2,2);
+//     printf("%d", avg);
+//     return 0;
+// }
+
+//Finding average by user inputs
+#include<stdio.h>
+int Average();
+int Average(){
+    int Arr[3];
+    int SUM=0;
+    for (int i=0; i<=2; i++){
+        printf("Enter number: ", i+1);
+        scanf("%d", &Arr[i]);
+        SUM+=Arr[i];
+    }
+    return SUM/3;
+}
+int main(){
+    int avg=Average();
+    printf("the average is: %d\n", avg);
+    return 0;
+}
