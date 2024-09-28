@@ -142,7 +142,7 @@ result = fact(5)
 print(result)''' 
 
 #Fibonacci using recursion
-a, b= 0, 1
+'''a, b= 0, 1
 n=int(input("Enter value: "))
 def fib(n):
     if n<=1:
@@ -151,8 +151,6 @@ def fib(n):
         return (fib(n-1))+(fib(n-2))
 for i in range(n):
     print(f"{fib(i)} ", end='')
-
 FIB=fib(n)
-print(FIB)
-
+print(FIB)'''
 
