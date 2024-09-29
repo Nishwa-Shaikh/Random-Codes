@@ -85,7 +85,7 @@ else:
         a, b= b, next'''
 
 #Armstrong number
-Sum=0
+'''Sum=0
 n=int(input("Enter any number: "))
 n=str(n)
 for i in n:
@@ -94,7 +94,7 @@ for i in n:
 if Sum==int(n):
     print(f"{n} is an armstrong number")
 else:
-    print("Not an armstrong")
+    print("Not an armstrong")'''
 
 #Perfect number
 '''SUM=0
@@ -154,3 +154,17 @@ for i in range(n):
 FIB=fib(n)
 print(FIB)'''
 
+#armstrong number using function
+
+def Armstrong():
+    n=int(input("Enter number: "))
+    n_str=str(n)
+    SUM=0
+    for digit in n_str:
+        digit=int(digit)
+        SUM+=digit**len(n_str)
+    if SUM==n:
+        print("Armstrong number")
+    else:
+        print("Not an armstrong number")
+Armstrong()
