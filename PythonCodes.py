@@ -177,3 +177,14 @@ Armstrong()
     int_reverse=reverse
     print(int_reverse)
 Reverse()"""
+
+#Count the digits using function
+def Count():
+    COUNT=0
+    Num=int(input("Enter number: "))
+    Num_str=str(Num)
+    for digit in Num_str:
+        digit=int(digit)
+        COUNT+=1
+    print(COUNT)
+Count()
