@@ -179,7 +179,7 @@ Armstrong()
 Reverse()"""
 
 #Count the digits using function
-def Count():
+'''def Count():
     COUNT=0
     Num=int(input("Enter number: "))
     Num_str=str(Num)
@@ -187,4 +187,22 @@ def Count():
         digit=int(digit)
         COUNT+=1
     print(COUNT)
-Count()
+Count()'''
+
+#Write a function to calculate nCr, Combination
+def Combination():
+    Num1=int(input("Enter number1: "))
+    Num2=int(input("Enter number2: "))
+    if Num1<=0 or Num2<=0:
+        print("Numbers should be greater than 0")
+    if Num2>Num1:
+        print("Num2 should be less than Num1")
+    else:
+        def fact(n):
+            if n == 1 or n == 0:
+                return 1
+            else:
+                return n * fact(n - 1)
+    COMB=fact(Num1)/(fact(Num2)*(fact(Num1-Num2)))
+    print(COMB)
+Combination()
