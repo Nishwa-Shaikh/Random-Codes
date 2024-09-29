@@ -156,7 +156,7 @@ print(FIB)'''
 
 #armstrong number using function
 
-def Armstrong():
+'''def Armstrong():
     n=int(input("Enter number: "))
     n_str=str(n)
     SUM=0
@@ -168,3 +168,12 @@ def Armstrong():
     else:
         print("Not an armstrong number")
 Armstrong()
+'''
+#Reverse a number using functions
+"""def Reverse():
+    num=int(input('Enter number: '))
+    num_str=str(num)
+    reverse=num_str[::-1]
+    int_reverse=reverse
+    print(int_reverse)
+Reverse()"""
