@@ -85,16 +85,16 @@ else:
         a, b= b, next'''
 
 #Armstrong number
-'''Sum=0
+Sum=0
 n=int(input("Enter any number: "))
 n=str(n)
 for i in n:
     i=int(i)
-    Sum+=i**3
+    Sum+=i**len(n)
 if Sum==int(n):
     print(f"{n} is an armstrong number")
 else:
-    print("Not an armstrong")'''
+    print("Not an armstrong")
 
 #Perfect number
 '''SUM=0
