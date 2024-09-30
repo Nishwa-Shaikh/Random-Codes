@@ -215,7 +215,7 @@ for nums in numbers:
 print(SUM)'''
 
 #Reverse an array
-N=input("Enter data seperated by spaces: ").split()
+'''N=input("Enter data seperated by spaces: ").split()
 Processed_data=[]
 
 for data in N:
@@ -225,4 +225,16 @@ for data in N:
     except ValueError:
         Processed_data.append(str(data))
 RN=Processed_data[::-1]
-print(RN)
+print(RN)'''
+
+#Count frequency of an element
+'''count=0
+N=input("Enter data seperated by spaces: ").split()
+DATA=input("Enter item you want to know: ")
+for data in N:
+    if data!=DATA:
+        continue
+    else:
+        count+=1
+print(f"{DATA} is repeated {count} times")'''
+
