@@ -208,8 +208,21 @@ Count()'''
 Combination()'''
 
 #Calculate sum of array elements:
-SUM=0
+'''SUM=0
 numbers=(input("Enter all the numbers you want to sum seperated by spaces: ")).split()
 for nums in numbers:
     SUM+=int(nums)
-print(SUM)
+print(SUM)'''
+
+#Reverse an array
+N=input("Enter data seperated by spaces: ").split()
+Processed_data=[]
+
+for data in N:
+    try:
+        data=int(data)
+        Processed_data.append(data)
+    except ValueError:
+        Processed_data.append(str(data))
+RN=Processed_data[::-1]
+print(RN)
