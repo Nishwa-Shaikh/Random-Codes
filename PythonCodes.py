@@ -238,3 +238,16 @@ for data in N:
         count+=1
 print(f"{DATA} is repeated {count} times")'''
 
+#print a matrix
+'''Mat=[]
+row1=[]
+for i in range(1,4):
+    row1.append(i)
+Mat.append(row1)
+row2=[]
+for j in range(4, 7):
+    row2.append(j)
+Mat.append(row2)
+for row in Mat:
+    print(row)'''
+
