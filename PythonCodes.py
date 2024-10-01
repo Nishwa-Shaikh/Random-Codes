@@ -251,3 +251,32 @@ Mat.append(row2)
 for row in Mat:
     print(row)'''
 
+#Addition of 2 matrices
+Mat1=[]
+row1=[]
+for i in range(1,4):
+    row1.append(i)
+Mat1.append(row1)
+row2=[]
+for j in range(4, 7):
+    row2.append(j)
+Mat1.append(row2)
+Mat2=[]
+row12=[]
+for i in range(1, 4):
+    row12.append(i)
+Mat2.append(row12)
+row22=[]
+for j in range(4, 7):
+    row22.append(j)
+Mat2.append(row22)
+mat3=[]
+for i in range(len(Mat1)):  # loop over the rows
+    row = []
+    for j in range(len(Mat1[0])):  # loop over the columns
+        row.append(Mat1[i][j] + Mat2[i][j])
+    mat3.append(row)
+for row in mat3:
+    print(row)
+
+
