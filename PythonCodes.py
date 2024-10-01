@@ -287,11 +287,11 @@ for i in Word:
 print(count)'''
 
 #Remove all duplicates from a string
-STR=input("Enter string: ")
+'''STR=input("Enter string: ")
 STRING=''
 seen=set()
 for char in STR:
     if char not in seen:
         STRING+=char
         seen.add(char)
-print(STRING)
+print(STRING)'''
