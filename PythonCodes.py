@@ -286,3 +286,12 @@ for i in Word:
     count+=1
 print(count)'''
 
+#Remove all duplicates from a string
+STR=input("Enter string: ")
+STRING=''
+seen=set()
+for char in STR:
+    if char not in seen:
+        STRING+=char
+        seen.add(char)
+print(STRING)
