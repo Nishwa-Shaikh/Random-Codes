@@ -252,7 +252,7 @@ for row in Mat:
     print(row)'''
 
 #Addition of 2 matrices
-Mat1=[]
+'''Mat1=[]
 row1=[]
 for i in range(1,4):
     row1.append(i)
@@ -277,6 +277,12 @@ for i in range(len(Mat1)):  # loop over the rows
         row.append(Mat1[i][j] + Mat2[i][j])
     mat3.append(row)
 for row in mat3:
-    print(row)
+    print(row)'''
 
+#Finding len without str len
+'''count=0
+Word=input("Enter any word: ")
+for i in Word:
+    count+=1
+print(count)'''
 
