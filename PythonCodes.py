@@ -307,6 +307,12 @@ NUM=''.join(map(str, Num[::-1]))
 print(NUM)'''
 
 #Convert decimal to binary by another method
-dec=int(input("Enter any integer: "))
-dec=bin(dec)[2:]
-print(dec)
+'''dec=int(input("Enter any integer: "))
+dec=bin(dec)[2:] #[2:] to remove 0b
+print(dec)'''
+
+#Convert decimal to binary with some changes in above code
+'''dec=int(input("Enter any integer: "))
+dec=bin(dec) # 0b in output
+print(dec)'''
+#This 0b indicates binary format when we do it by using function (bin)
