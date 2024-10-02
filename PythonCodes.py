@@ -296,4 +296,12 @@ for char in STR:
         seen.add(char)
 print(STRING)'''
 
-#Filing
+#Convert decimal to binary
+dec=int(input("Enter any number: "))
+Num=[]
+while (dec!=0):
+    rem=dec%2
+    Num.append(rem)
+    dec=dec//2
+NUM=''.join(map(str, Num[::-1]))
+print(NUM)
