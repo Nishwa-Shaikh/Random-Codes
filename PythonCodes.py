@@ -297,11 +297,16 @@ for char in STR:
 print(STRING)'''
 
 #Convert decimal to binary
-dec=int(input("Enter any number: "))
+'''dec=int(input("Enter any number: "))
 Num=[]
 while (dec!=0):
     rem=dec%2
     Num.append(rem)
     dec=dec//2
 NUM=''.join(map(str, Num[::-1]))
-print(NUM)
+print(NUM)'''
+
+#Convert decimal to binary by another method
+dec=int(input("Enter any integer: "))
+dec=bin(dec)[2:]
+print(dec)
