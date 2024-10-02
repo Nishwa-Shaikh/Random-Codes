@@ -318,13 +318,13 @@ print(dec)'''
 #This 0b indicates binary format when we do it by using function (bin)
 
 #Binary to dec
-BIN=int(input("Enter any integer: "))
+'''BIN=int(input("Enter any integer: "))
 SUM=0
 BIN=str(BIN)
 BIN=BIN[::-1]
 for i in BIN:
     i=int(i)
     SUM+=i**2
-print(SUM)
+print(SUM)'''
 
 
