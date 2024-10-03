@@ -318,13 +318,19 @@ print(dec)'''
 #This 0b indicates binary format when we do it by using function (bin)
 
 #Binary to dec
-BIN=int(input("Enter any integer: "))
+'''BIN=int(input("Enter any integer: "))
 SUM=0
 BIN=str(BIN)
 RBIN=BIN[::-1]
 for i in range(len(RBIN)):
     if RBIN[i]=="1":
-        SUM+=2**i
+        SUM+=8**i
 
-print(f"Decimal of {BIN} is:", SUM)
+print(f"Decimal of {BIN} is:", SUM)'''
+
+#Decimal to oct conversion
+DEC=int(input("Enter any integer: "))
+NUM=[]
+while (DEC!=0):
+    rem=DEC%8
 
